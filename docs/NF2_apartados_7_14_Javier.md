@@ -2,7 +2,7 @@
 
 **Proyecto:** Monitorización y predicción del estrés térmico en arrecifes de coral
 
-**Apartados:** 7, 8 y 9
+**Apartados:** 7-14
 
 **Responsable:** Javier Badías
 
@@ -273,7 +273,9 @@ La planificación propuesta abarca unas 13 semanas de trabajo, ajustables al cal
 
 **Dependencias principales:** descarga de datos → limpieza y modelo de datos → integración y análisis → evaluación de modelos → dashboard → documentación y pruebas.
 
-**Reparto de tareas en NF2 (14/10/2026):** Pedro está preparando los apartados 1–6 y Javier los apartados 7–14, pendiente de revisar solapamientos del apartado 7. Las responsabilidades de Vanessa y Paolo para el desarrollo posterior deben confirmarse con el equipo antes de considerarlas asignadas.
+**Reparto de tareas en NF2 (14/10/2026):** Para esta segunda actividad hemos dividido la documentación entre Pedro y Javier. Pedro se está encargando de los primeros apartados y Javier de los apartados 7 al 14.
+
+Para las siguientes fases terminaremos de organizar las tareas entre todos los integrantes del grupo.
 
 **Seguimiento:** se propone utilizar Discord para comunicación, GitHub Issues para tareas concretas y reuniones breves cuando haya decisiones o bloqueos. Se registrarán responsables y fecha objetivo de cada tarea.
 
@@ -295,7 +297,7 @@ Si alguna prueba falla, el cambio se corregirá antes de incorporarlo a `main`.
 
 ## 13. Riesgos técnicos actualizados
 
-Se priorizan los riesgos mediante una estimación cualitativa de impacto y probabilidad. Estas valoraciones son iniciales y se revisarán al trabajar con datos reales.
+Hemos identificado los principales riesgos que pueden aparecer durante el proyecto, valorando su impacto y la probabilidad de que ocurran. También hemos propuesto posibles soluciones para cada uno.
 
 | Riesgo | Impacto | Probabilidad | Plan de mitigación | Área afectada |
 |---|---|---|---|---|
@@ -310,8 +312,9 @@ Se priorizan los riesgos mediante una estimación cualitativa de impacto y proba
 
 ## 14. Repositorio del proyecto
 
-El equipo dispone de un repositorio común: **https://github.com/Pedr950/coral-thermal-stress**. En el momento de esta propuesta, el repositorio ya contiene `README.md` y documentación inicial de Javier en la rama `javier-nf2`; falta confirmar o completar la estructura base que exige NF2.
+Para desarrollar el proyecto utilizaremos un repositorio compartido en GitHub, donde todos los integrantes podremos guardar y organizar nuestro trabajo.
 
+Repositorio: https://github.com/Pedr950/coral-thermal-stress
 **Estructura propuesta:**
 
 ```text
@@ -327,11 +330,11 @@ coral-thermal-stress/
 └── environment/
 ```
 
-Las carpetas de trabajo podrán contener inicialmente un archivo `.gitkeep`, ya que Git no guarda directorios vacíos. No se subirán datasets pesados ni credenciales al repositorio.
+Para organizar el repositorio utilizaremos diferentes carpetas donde guardaremos la documentación, los datos y el código del proyecto.
 
-El `README.md` final deberá explicar: objetivo del proyecto; integrantes y roles confirmados; arquitectura resumida; tecnologías previstas; enlaces a la documentación; e instrucciones básicas de puesta en marcha, aunque todavía no exista código funcional.
+El archivo README incluirá una explicación general del proyecto, sus integrantes, las tecnologías utilizadas y cómo se organizará el trabajo.
 
-**Acciones pendientes para completar este apartado:** comprobar que `docs/` contiene el PDF de NF2 y el diagrama de arquitectura, crear las carpetas y `.gitignore` que falten, y actualizar `README.md` con la información exigida. La existencia de este plan no sustituye la creación de esos archivos en GitHub.
+A medida que avancemos iremos añadiendo los archivos y carpetas necesarios para desarrollar el proyecto.
 
 
 ---
@@ -342,5 +345,3 @@ El `README.md` final deberá explicar: objetivo del proyecto; integrantes y role
 - NOAA - Condiciones de uso y atribución: https://coralreefwatch.noaa.gov/satellite/docs/recommendations_crw_citation.php
 - Allen Coral Atlas: https://allencoralatlas.org/
 - Allen Coral Atlas - Recursos, licencias y descargas: https://allencoralatlas.org/resources/
-
-**Nota:** Esta documentación corresponde al diseño inicial de la segunda fase. El modelo de datos, los formatos y las estimaciones deberán revisarse cuando el equipo comience a trabajar con los datasets reales.
