@@ -1,0 +1,30 @@
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Archivos con datos sensibles
+.env
+.env.*
+!.env.example
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de registro
+*.log
+
+# Datos grandes
+*.nc
+*.nc4
+*.h5
+*.hdf5
