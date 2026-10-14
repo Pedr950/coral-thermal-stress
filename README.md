@@ -152,3 +152,43 @@ El resultado final será un pipeline de Big Data e Inteligencia Artificial capaz
 **monitorizar → analizar → detectar → predecir → visualizar**
 
 la evolución del estrés térmico en diferentes regiones de arrecifes de coral.
+
+
+## Arquitectura del sistema
+
+El proyecto seguirá una estructura dividida en varias partes:
+
+1. **Obtención de datos:** utilizaremos fuentes como NOAA Coral Reef Watch y Allen Coral Atlas para conseguir información ambiental y geográfica.
+2. **Preparación de datos:** limpiaremos y organizaremos los datos utilizando Python y Pandas.
+3. **Procesamiento:** utilizaremos herramientas como Apache Spark si el volumen de datos lo requiere.
+4. **Machine Learning:** desarrollaremos modelos para intentar predecir el estrés térmico de los arrecifes.
+5. **Visualización:** mostraremos los resultados mediante gráficos, mapas y dashboards.
+
+Cada parte se irá desarrollando durante las siguientes fases del proyecto.
+
+## Organización actual del repositorio
+
+Actualmente hemos organizado el repositorio con las siguientes carpetas:
+
+- `docs/`: documentación del proyecto.
+- `data/`: datos que utilizaremos para los análisis.
+- `src/`: código Python del proyecto.
+- `environment/`: archivos de configuración.
+- `README.md`: información general del proyecto.
+- `.gitignore`: archivos que no queremos subir a GitHub.
+
+Estas carpetas nos permitirán mantener el trabajo ordenado a medida que avancemos.
+
+## Cómo ejecutar el proyecto
+
+Actualmente el proyecto se encuentra en fase de planificación y diseño técnico, por lo que todavía no tenemos una aplicación funcional que ejecutar.
+
+En las siguientes fases añadiremos el código y explicaremos los pasos necesarios para instalar las dependencias, preparar los datos y ejecutar los análisis.
+
+## Organización del trabajo en GitHub
+
+Cada integrante podrá trabajar en su propia rama para desarrollar las tareas asignadas.
+
+Cuando terminemos una parte, utilizaremos una Pull Request para revisar los cambios antes de incorporarlos a la rama principal (`main`).
+
+De esta forma podremos trabajar en equipo sin modificar directamente el trabajo de los demás.
