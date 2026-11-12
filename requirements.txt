@@ -1,0 +1,5 @@
+# Instalar desde la raíz: python -m pip install -r requirements.txt
+streamlit>=1.42,<2
+pandas>=2.2,<4
+plotly>=6,<7
+pytest>=8,<10
